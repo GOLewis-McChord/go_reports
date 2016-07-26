@@ -1,0 +1,56 @@
+.imgHeader{
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+}
+
+.scheduleHeader{
+	background-color: #3F3F3F;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 5px 0 5px 0;
+	margin: 5px 0 5px 0;
+	font-size: 14px;
+}
+
+.directionHeader{
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 3px;
+}
+
+.stopCircle{
+	width: 30px;
+	height: 30px;
+	background: #E0E0E0;
+	border-radius: 15px;
+	padding-top: 3px;
+	margin-bottom: 3px;
+	text-align: center;
+	font-weight: bold;
+	border: 2px solid #4D4D4D;
+}
+
+.stopInfo{
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+
+.exception{
+	margin-top: 16px;
+}
+
+#footerText{
+	text-align: center;
+}
+
+.header{
+	font-size: 36px;
+	color: #3F3F3F;
+	text-align: center;
+}
+
+#weekend{
+	margin: 128px 0 0 0;
+}

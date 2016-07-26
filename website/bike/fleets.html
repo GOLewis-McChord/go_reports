@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>GO Transit System Map</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="../css/go.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    <style>
+        html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        margin: 70px 0 12px 0;
+        height: 700px;
+      }
+
+        #routes {
+            margin-top: 20px;
+            height: 160px;
+        }
+
+		#infoDeck{
+			margin-bottom: 20px;
+		}
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-light bg-faded navbar-fixed-top" id="navbar space">
+        <a class="navbar-brand" href="../index.html"><img src="../img/go_logo.jpg" class="goLogo"/></a>
+        <ul class="nav navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../transit/system.html">Transit</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../bike/fleets.html">Bike</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../vanpool/overview.html">Vanpool</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../outreach/overview.html">Outreach</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="col-md-12">
+        <div id="map"></div>
+    </div>
+
+	<div class="col-md-12" id="infoDeck">
+		<div class="container" id="about">
+			<div class="card-deck-wrapper">
+				<div class="card-deck">
+					<div class="card card-inverse card-success text-xs-center">
+						<div class="card-block">
+							<h4 class="card-title"><i class="fa fa-calendar-check-o"></i> Check-Out</h4>
+							<p class="white-text">
+								GO Bike is available for FREE to Service members, DoD civilians, and contractors. Please bring your military Common Access Card to the check-out location. After signing a waiver staff will check you out a bike.
+							</p>
+						</div>
+					</div>
+
+					<div class="card card-inverse card-success text-xs-center">
+						<div class="card-block">
+							<h4 class="card-title"><i class="fa fa-lock"></i> Included Gear</h4>
+							<p class="white-text">
+								It is required you wear reflective gear on the installation. We provide reflective gear, helmets as available, a water bottle cage, lights, and the lock. We recommend you bring your own helmet.
+							</p>
+						</div>
+					</div>
+
+					<div class="card card-inverse card-success text-xs-center">
+						<div class="card-block">
+							<h4 class="card-title"><i class="fa fa-exclamation-circle"></i> Safety Information</h4>
+							<p class="white-text">
+								It is important to follow the rules of the road. You can view <a href=http://bit.ly/1jv7Hvz">this</a> video series for information about bicycle safety.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script>
+
+      function initialize(){
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 47.10863333333334, lng: -122.55411111111111},
+            zoom: 13
+        });
+
+        var fleetURL = 'https://raw.githubusercontent.com/mlockwood/go_transit_src/master/static/kml/fleet.kml?dummy='+(new Date()).getTime();
+        var fleetLayer = new google.maps.KmlLayer({
+          url: fleetURL,
+          map: map
+        });
+        fleetLayer.setMap(map)
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgsmKLx0UBD6zwRT0P4WGuimjZ1KR5eR8&callback=initialize"
+    ></script>
+
+</body>
+
+</html>

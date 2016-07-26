@@ -1,0 +1,99 @@
+20160711_S8A.csv,MissingMetadataError,Missing corresponding metadata row in metadata.csv
+20160711_S9A.csv,MissingDatasheetError,Missing corresponding datasheet CSV
+20160722_S8A.csv,MissingDatasheetError,Missing corresponding datasheet CSV
+20160722_S9A.csv,MissingMetadataError,Missing corresponding metadata row in metadata.csv
+D:\go/data/ridership\2016\01\16/20160116_S1A.csv,StopUnavailableForRouteError,The stop 201 is not a part of any routes within joint route 10
+D:\go/data/ridership\2016\03\09/20160309_S3A.csv,StopUnavailableForRouteError,The stop 320 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\03\28/20160328_S3A.csv,StopUnavailableForRouteError,The stop 303 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\03\28/20160328_S3A.csv,StopUnavailableForRouteError,The stop 303 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\04\02/20160402_S3A.csv,StopUnavailableForRouteError,The stop 313 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\03/20160403_S1A.csv,StopUnavailableForRouteError,The stop 451 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\03/20160403_S2A.csv,StopUnavailableForRouteError,The stop 451 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\03/20160403_S4A.csv,StopUnavailableForRouteError,The stop 451 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\04/20160404_S5B.csv,StopUnavailableForRouteError,The stop 460 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\04\09/20160409_S1A.csv,StopUnavailableForRouteError,The stop 451 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\09/20160409_S2A.csv,StopUnavailableForRouteError,The stop 271 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\09/20160409_S4A.csv,StopUnavailableForRouteError,The stop 225 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\10/20160410_S4A.csv,StopUnavailableForRouteError,The stop 778 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\16/20160416_S1A.csv,StopUnavailableForRouteError,The stop 484 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\17/20160417_S1A.csv,StopUnavailableForRouteError,The stop 271 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\17/20160417_S1A.csv,StopUnavailableForRouteError,The stop 274 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\17/20160417_S4A.csv,StopUnavailableForRouteError,The stop 220 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\17/20160417_S4A.csv,StopUnavailableForRouteError,The stop 272 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\17/20160417_S4A.csv,StopUnavailableForRouteError,The stop 272 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\17/20160417_S4A.csv,StopUnavailableForRouteError,The stop 451 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\17/20160417_S4A.csv,StopUnavailableForRouteError,The stop 451 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\19/20160419_S2B.csv,StopUnavailableForRouteError,The stop 628 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\04\23/20160423_S2A.csv,StopUnavailableForRouteError,The stop 217 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\23/20160423_S3A.csv,StopUnavailableForRouteError,The stop 220 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\23/20160423_S3A.csv,StopUnavailableForRouteError,The stop 225 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\24/20160424_S1A.csv,StopUnavailableForRouteError,The stop 273 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\24/20160424_S4A.csv,StopUnavailableForRouteError,The stop 451 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\04\25/20160425_S3A.csv,StopUnavailableForRouteError,The stop 220 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\04\30/20160430_S11A.csv,StopUnavailableForRouteError,The stop 217 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\05\03/20160503_S7A.csv,StopUnavailableForRouteError,The stop 464 is not a part of any routes within joint route 3&4
+D:\go/data/ridership\2016\05\05/20160505_S7B.csv,StopUnavailableForRouteError,The stop 413 is not a part of any routes within joint route 3&4
+D:\go/data/ridership\2016\05\07/20160507_S12A.csv,StopUnavailableForRouteError,The stop 316 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\05\09/20160509_S3A.csv,StopUnavailableForRouteError,The stop 451 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\05\09/20160509_S3A.csv,StopUnavailableForRouteError,The stop 465 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\05\10/20160510_S2A.csv,StopUnavailableForRouteError,The stop 324 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\05\10/20160510_S7B.csv,StopUnavailableForRouteError,The stop 140 is not a part of any routes within joint route 3&4
+D:\go/data/ridership\2016\05\11/20160511_S3A.csv,StopUnavailableForRouteError,The stop 465 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\05\14/20160514_S11A.csv,StopValidationError,Boarding stop of None in row 8 is not a valid stop
+D:\go/data/ridership\2016\05\14/20160514_S11A.csv,StopValidationError,Deboarding stop of None in row 3 is not a valid stop
+D:\go/data/ridership\2016\05\18/20160518_S6A.csv,StopValidationError,Boarding stop of None in row 9 is not a valid stop
+D:\go/data/ridership\2016\05\20/20160520_S2B.csv,StopUnavailableForRouteError,The stop 228 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\05\21/20160521_S12A.csv,StopUnavailableForRouteError,The stop 217 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\05\22/20160522_S12A.csv,StopUnavailableForRouteError,The stop 800 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\05\24/20160524_S1A.csv,StopUnavailableForRouteError,The stop 313 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\05\25/20160525_S2A.csv,StopValidationError,Deboarding stop of None in row 2 is not a valid stop
+D:\go/data/ridership\2016\05\25/20160525_S2B.csv,StopUnavailableForRouteError,The stop 272 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\05\25/20160525_S4A.csv,StopValidationError,Boarding stop of None in row 4 is not a valid stop
+D:\go/data/ridership\2016\05\25/20160525_S6B.csv,StopUnavailableForRouteError,The stop 141 is not a part of any routes within joint route 3&4
+D:\go/data/ridership\2016\05\27/20160527_S4B.csv,StopUnavailableForRouteError,The stop 275 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\05\27/20160527_S6B.csv,StopValidationError,Boarding stop of None in row 3 is not a valid stop
+D:\go/data/ridership\2016\05\31/20160531_S6B.csv,StopUnavailableForRouteError,The stop 113 is not a part of any routes within joint route 3&4
+D:\go/data/ridership\2016\06\01/20160601_S1A.csv,StopValidationError,Deboarding stop of None in row 2 is not a valid stop
+D:\go/data/ridership\2016\06\08/20160608_S4A.csv,StopValidationError,Deboarding stop of None in row 2 is not a valid stop
+D:\go/data/ridership\2016\06\16/20160616_S2A.csv,StopValidationError,Boarding stop of None in row 6 is not a valid stop
+D:\go/data/ridership\2016\06\16/20160616_S2A.csv,StopValidationError,Deboarding stop of None in row 6 is not a valid stop
+D:\go/data/ridership\2016\06\21/20160621_S6B.csv,StopValidationError,Boarding stop of None in row 8 is not a valid stop
+D:\go/data/ridership\2016\07\1/20160701_S4A.csv,StopValidationError,Boarding stop of 1700 in row 8 is not a valid stop
+D:\go/data/ridership\2016\07\11/20160711_S4B.csv,StopValidationError,Deboarding stop of 104 in row 10 is not a valid stop
+D:\go/data/ridership\2016\07\12/20160712_S7B.csv,StopValidationError,Boarding stop of 840 in row 4 is not a valid stop
+D:\go/data/ridership\2016\07\13/20160713_S3B.csv,StopValidationError,Boarding stop of None in row 3 is not a valid stop
+D:\go/data/ridership\2016\07\13/20160713_S4B.csv,StopValidationError,Deboarding stop of None in row 2 is not a valid stop
+D:\go/data/ridership\2016\07\13/20160713_S6B.csv,StopValidationError,Boarding stop of 202 in row 5 is not a valid stop
+D:\go/data/ridership\2016\07\13/20160713_S7B.csv,StopUnavailableForRouteError,The stop 200 is not a part of any routes within joint route 3&4
+D:\go/data/ridership\2016\07\13/20160713_S7B.csv,StopUnavailableForRouteError,The stop 200 is not a part of any routes within joint route 3&4
+D:\go/data/ridership\2016\07\13/20160713_S7B.csv,StopUnavailableForRouteError,The stop 313 is not a part of any routes within joint route 3&4
+D:\go/data/ridership\2016\07\14/20160714_S4B.csv,StopValidationError,Deboarding stop of None in row 13 is not a valid stop
+D:\go/data/ridership\2016\07\16/20160716_S10A.csv,StopUnavailableForRouteError,The stop 780 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\16/20160716_S11A.csv,StopUnavailableForRouteError,The stop 217 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\17/20160717_S10A.csv,StopUnavailableForRouteError,The stop 217 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\17/20160717_S11A.csv,StopUnavailableForRouteError,The stop 780 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\17/20160717_S12A.csv,StopUnavailableForRouteError,The stop 780 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\17/20160717_S12A.csv,StopUnavailableForRouteError,The stop 780 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\18/20160718_S4B.csv,StopValidationError,Boarding stop of 727 in row 8 is not a valid stop
+D:\go/data/ridership\2016\07\19/20160719_S7B.csv,StopUnavailableForRouteError,The stop 400 is not a part of any routes within joint route 3&4
+D:\go/data/ridership\2016\07\2/20160702_S10A.csv,StopUnavailableForRouteError,The stop 212 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\2/20160702_S11A.csv,StopValidationError,Deboarding stop of None in row 2 is not a valid stop
+D:\go/data/ridership\2016\07\2/20160702_S12A.csv,StopUnavailableForRouteError,The stop 400 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\21/20160721_S7B.csv,StopValidationError,Boarding stop of 181 in row 4 is not a valid stop
+D:\go/data/ridership\2016\07\22/20160722_S1B.csv,StopUnavailableForRouteError,The stop 273 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\07\22/20160722_S1B.csv,StopUnavailableForRouteError,The stop 273 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\07\23/20160723_S10A.csv,StopUnavailableForRouteError,The stop 313 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\23/20160723_S10A.csv,StopUnavailableForRouteError,The stop 780 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\23/20160723_S10A.csv,StopUnavailableForRouteError,The stop 780 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\23/20160723_S10A.csv,StopUnavailableForRouteError,The stop 780 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\23/20160723_S10A.csv,StopUnavailableForRouteError,The stop 780 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\23/20160723_S11A.csv,StopUnavailableForRouteError,The stop 780 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\24/20160724_S12A.csv,StopUnavailableForRouteError,The stop 316 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\24/20160724_S12A.csv,StopUnavailableForRouteError,The stop 780 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\3/20160703_S12A.csv,StopUnavailableForRouteError,The stop 313 is not a part of any routes within joint route 10&20
+D:\go/data/ridership\2016\07\5/20160705_S2A.csv,StopValidationError,Deboarding stop of 302 in row 2 is not a valid stop
+D:\go/data/ridership\2016\07\6/20160706_S1A.csv,StopValidationError,Deboarding stop of 788 in row 9 is not a valid stop
+D:\go/data/ridership\2016\07\7/20160707_S1A.csv,StopValidationError,Boarding stop of 306 in row 8 is not a valid stop
+D:\go/data/ridership\2016\07\8/20160708_S3B.csv,StopUnavailableForRouteError,The stop 228 is not a part of any routes within joint route 1&2
+D:\go/data/ridership\2016\07\8/20160708_S7B.csv,StopUnavailableForRouteError,The stop 200 is not a part of any routes within joint route 3&4
+D:\go/data/ridership\2016\07\9/20160709_S12A.csv,StopUnavailableForRouteError,The stop 201 is not a part of any routes within joint route 10&20

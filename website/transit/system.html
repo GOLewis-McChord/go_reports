@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>GO Transit System Map</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/go.css">
+    <link rel="stylesheet" href="../css/schedule.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    <style>
+        html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        margin-top: 70px;
+        height: 700px;
+      }
+
+        #routes {
+            margin-top: 20px;
+            height: 160px;
+        }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-light bg-faded navbar-fixed-top" id="navbar space">
+        <a class="navbar-brand" href="../index.html"><img src="../img/go_logo.jpg" class="goLogo"/></a>
+        <ul class="nav navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../transit/system.html">Transit</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../bike/fleets.html">Bike</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../vanpool/overview.html">Vanpool</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../outreach/overview.html">Outreach</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="col-md-12">
+        <div id="map"></div>
+    </div>
+
+    <div class="col-md-12" id="routes">
+        <div class="col-md-2">
+            <a href="routes/route1.html"><img src="../img/route1_logo.jpg" class="imgHeader"/></a>
+        </div>
+
+        <div class="col-md-2">
+            <a href="routes/route2.html"><img src="../img/route2_logo.jpg" class="imgHeader"/></a>
+        </div>
+
+        <div class="col-md-2">
+            <a href="routes/route3.html"><img src="../img/route3_logo.jpg" class="imgHeader"/></a>
+        </div>
+
+        <div class="col-md-2">
+            <a href="routes/route4.html"><img src="../img/route4_logo.jpg" class="imgHeader"/></a>
+        </div>
+
+		<div class="col-md-2">
+			<a href="routes/route10.html"><img src="../img/route10_logo.jpg" class="imgHeader"/></a>
+		</div>
+
+		<div class="col-md-2">
+			<a href="routes/route20.html"><img src="../img/route20_logo.jpg" class="imgHeader"/></a>
+		</div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script>
+
+      function initialize(){
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 47.10863333333334, lng: -122.55411111111111},
+            zoom: 13
+        });
+
+        var rt1URL = 'https://raw.githubusercontent.com/mlockwood/go_transit_src/master/static/kml/route1.kml?dummy='+(new Date()).getTime();
+        var rt1Layer = new google.maps.KmlLayer({
+          url: rt1URL,
+          map: map
+        });
+        rt1Layer.setMap(map)
+
+        var rt2URL = 'https://raw.githubusercontent.com/mlockwood/go_transit_src/master/static/kml/route2.kml?dummy='+(new Date()).getTime();
+        var rt2Layer = new google.maps.KmlLayer({
+          url: rt2URL,
+          map: map
+        });
+        rt2Layer.setMap(map)
+
+        var rt3URL = 'https://raw.githubusercontent.com/mlockwood/go_transit_src/master/static/kml/route3.kml?dummy='+(new Date()).getTime();
+        var rt3Layer = new google.maps.KmlLayer({
+          url: rt3URL,
+          map: map
+        });
+        rt3Layer.setMap(map)
+
+        var rt4URL = 'https://raw.githubusercontent.com/mlockwood/go_transit_src/master/static/kml/route4.kml?dummy='+(new Date()).getTime();
+        var rt4Layer = new google.maps.KmlLayer({
+          url: rt4URL,
+          map: map
+        });
+        rt4Layer.setMap(map)
+
+        var rt10URL = 'https://raw.githubusercontent.com/mlockwood/go_transit_src/master/static/kml/route10.kml?dummy='+(new Date()).getTime();
+        var rt10Layer = new google.maps.KmlLayer({
+          url: rt10URL,
+          map: map
+        });
+        rt10Layer.setMap(map)
+
+        var rt20URL = 'https://raw.githubusercontent.com/mlockwood/go_transit_src/master/static/kml/route20.kml?dummy='+(new Date()).getTime();
+        var rt20Layer = new google.maps.KmlLayer({
+          url: rt20URL,
+          map: map
+        });
+        rt20Layer.setMap(map)
+
+        var stopURL = 'https://raw.githubusercontent.com/mlockwood/go_transit_src/master/static/kml/stops.kml?dummy='+(new Date()).getTime();
+        var stopLayer = new google.maps.KmlLayer({
+          url: stopURL,
+          map: map
+        });
+        stopLayer.setMap(map)
+
+        google.maps.event.addListener(map, "click", function(event) {
+            var lat = event.latLng.lat();
+            var lng = event.latLng.lng();
+            // populate yor box/field with lat, lng
+            alert("Lat=" + lat + "; Lng=" + lng);
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgsmKLx0UBD6zwRT0P4WGuimjZ1KR5eR8&callback=initialize"
+    ></script>
+  </body>
+</html>
+

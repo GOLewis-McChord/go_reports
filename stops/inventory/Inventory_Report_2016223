@@ -1,0 +1,27 @@
+Ground has been dug, sign is in frame, awaiting post
+101a, 103a, 111a
+
+Sign is in wooden frame
+106a, 106b, 107a, 107b, 110a, 110b, 114a, 201a, 202a, 203a, 
+211a, 211b, 212a, 212b, 214a, 214b, 215b, 221a, 221b, 222a, 
+222b, 223a, 231a, 231b, 232a, 232b, 233a, 233b, 234a, 234b, 
+235a
+
+Sign is available but not in the field
+201b, 202b, 203b, 215a, 223b
+
+Sign needs to be swapped (pilot or style upgrade)
+204a
+
+Sign will need to be placed but is currently unavailable
+120a, 120b, 121a, 121b, 122a, 122b, 123a, 123b, 124a, 124b, 
+167a, 167b, 167c, 168a, 204b, 213a
+
+Sign is posted and does not require inspection
+101b, 102a, 102b, 103b, 105a, 105b, 111b, 112a, 112b, 113a, 
+113b, 115a, 115b, 118a, 118b, 200b
+
+Sign was not inventoried
+130a, 130b, 140a, 140b, 141a, 141b, 142a, 142b, 143a, 143b, 
+144a, 144b, 151a, 154a, 155a, 161a, 165a
+

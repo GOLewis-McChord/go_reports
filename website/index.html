@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+      
+    <meta charset="utf-8">
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+      
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      
+	<style>
+      
+		.jumbotron {
+			background-image: url(img/traffic.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+			text-align: center;
+			padding-top: 100px;
+		}
+	  
+		#email {
+			width: 300px;  
+		}
+	  
+		.card-img-top {
+			width: 100%;
+		}
+	  
+		#footer {  
+			padding-top: 0px;
+			margin: 15px 0 15px 0;
+			text-align: center;
+		}
+	  
+		body {
+			position: relative;
+		}
+	  
+		#signUp{
+			height: 120px;
+			width: 600px;
+			margin: 0px auto;
+			color: #373A3C;
+			display: block;
+			border-radius: 30px;
+		}
+
+		#map {
+            height: 525px;
+            width: 900px;
+            margin: 0px auto;
+        }
+      
+    </style>
+	  
+	<link rel="stylesheet" href="css/go.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/schedule.css">
+      
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="150">
+      
+    <nav class="navbar navbar-light bg-faded navbar-fixed-top" id="navbar">
+		<a class="navbar-brand" href="#"><img src="img/go_logo.jpg" class="goLogo"/></a>
+		<ul class="nav navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+				<a class="nav-link" href="transit/system.html">Transit</a>
+            </li>
+            <li class="nav-item">
+				<a class="nav-link" href="bike/fleets.html">Bike</a>
+            </li>
+			<li class="nav-item">
+				<a class="nav-link" href="vanpool/overview.html">Vanpool</a>
+            </li>
+			<li class="nav-item">
+				<a class="nav-link" href="outreach/overview.html">Outreach</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="jumbotron" id="jumbotron">
+		<h1 class="display-3">GO Lewis-McChord</h1>
+
+			<hr class="m-y-2">
+
+            <div id="map"></div>
+
+            <hr class="m-y-2">
+			
+			<div class="container" id="about">
+				<div class="card-deck-wrapper">
+					<div class="card-deck">
+					
+						<div class="card card-inverse card-success text-xs-center">
+
+							<div class="card-block">
+								<h4 class="card-title"><i class="fa fa-bus"></i> GO Transit</h4>
+								<p class="card-text">
+									GO Transit offers free service around and off base. Click <a href="transit/system.html">here</a> for the system map.
+								</p>
+							</div>
+						</div>
+						
+						<div class="card card-inverse card-success text-xs-center">
+
+							<div class="card-block">
+								<h4 class="card-title"><i class="fa fa-bicycle"></i> GO Bike</h4>
+								<p class="card-text">
+                                    GO Bike allows you to check out a bike for free. Click <a href="bike/fleets.html">here</a> for information on check-out locations.</p>
+							</div>
+						</div>
+						
+						<div class="card card-inverse card-success text-xs-center">
+
+							<div class="card-block">
+								<h4 class="card-title"><i class="fa fa-automobile"></i> GO Vanpool</h4>
+								<p class="card-text">
+                                    GO Vanpool let's you relax and save on your commute. Learn <a href="vanpool/overview.html">here</a> how to save up to $255 a month!
+                                </p>
+			   
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+
+    <div id="footer">
+      
+		<div class="row">
+			<h3 class="lead">Looking for a way out of driving in the traffic?</h3>
+			<h3 class="lead">We have many FREE programs to get you around!</h3>
+		</div>
+    </div></br>
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+
+    <script>
+
+      function initialize(){
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 47.10863333333334, lng: -122.55411111111111},
+            zoom: 13
+        });
+
+        var rt1URL = 'https://raw.githubusercontent.com/mlockwood/go_transit_src/master/static/kml/route1.kml?dummy='+(new Date()).getTime();
+        var rt1Layer = new google.maps.KmlLayer({
+          url: rt1URL,
+          map: map,
+          preserveViewport:true
+        });
+        rt1Layer.setMap(map)
+
+        var rt2URL = 'https://raw.githubusercontent.com/mlockwood/go_transit_src/master/static/kml/route2.kml?dummy='+(new Date()).getTime();
+        var rt2Layer = new google.maps.KmlLayer({
+          url: rt2URL,
+          map: map,
+          preserveViewport:true
+        });
+        rt2Layer.setMap(map)
+
+        var rt3URL = 'https://raw.githubusercontent.com/mlockwood/go_transit_src/master/static/kml/route3.kml?dummy='+(new Date()).getTime();
+        var rt3Layer = new google.maps.KmlLayer({
+          url: rt3URL,
+          map: map,
+          preserveViewport:true
+        });
+        rt3Layer.setMap(map)
+
+        var rt4URL = 'https://raw.githubusercontent.com/mlockwood/go_transit_src/master/static/kml/route4.kml?dummy='+(new Date()).getTime();
+        var rt4Layer = new google.maps.KmlLayer({
+          url: rt4URL,
+          map: map,
+          preserveViewport:true
+        });
+        rt4Layer.setMap(map)
+
+        var rt10URL = 'https://raw.githubusercontent.com/mlockwood/go_transit_src/master/static/kml/route10.kml?dummy='+(new Date()).getTime();
+        var rt10Layer = new google.maps.KmlLayer({
+          url: rt10URL,
+          map: map,
+          preserveViewport:true
+        });
+        rt10Layer.setMap(map)
+
+        var rt20URL = 'https://raw.githubusercontent.com/mlockwood/go_transit_src/master/static/kml/route20.kml?dummy='+(new Date()).getTime();
+        var rt20Layer = new google.maps.KmlLayer({
+          url: rt20URL,
+          map: map,
+          preserveViewport:true
+        });
+        rt20Layer.setMap(map)
+
+        var stopURL = 'https://raw.githubusercontent.com/mlockwood/go_transit_src/master/static/kml/stops.kml?dummy='+(new Date()).getTime();
+        var stopLayer = new google.maps.KmlLayer({
+          url: stopURL,
+          map: map,
+          preserveViewport:true
+        });
+        stopLayer.setMap(map)
+
+
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgsmKLx0UBD6zwRT0P4WGuimjZ1KR5eR8&callback=initialize"
+    ></script>
+
+</body>
+    
+</html>
