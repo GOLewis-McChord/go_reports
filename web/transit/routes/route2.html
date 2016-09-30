@@ -9,45 +9,74 @@
 </head>
 <body>
 <div><img src="../../img/route2_logo.jpg" class="imgHeader"></div>
-<div><embed height="700" src="../../pdf/route2_map.pdf" width="1680" type="application/pdf"></embed></div>
+<div class="col-md-12"><div id="map"></div></div>
 <div class="col-md-12 scheduleHeader">Monday - Friday<br>06:25 - 07:00</div>
 <div class="col-md-6">
-<div class="col-md-12 directionHeader route2">Evergreen McChord Lodging, McChord DFAC to Lakewood, McChord Dining</div>
+<div class="col-md-12 directionHeader route2">McChord DFAC, Evergreen McChord Lodging to McChord Dining, Lakewood</div>
 <br><div class="col-md-12">
-<div class="col-md-1"><div class="stopCircle">772</div></div>
-<a href="../stops/772b.html"><div class="col-md-4 stopInfo">Evergreen McChord Lodging (b)</div></a><div class="col-md-7 stopInfo">06:25, 06:25, 06:25, 06:25, 06:25, 06:35, 06:35, 06:35, 06:35, 06:35, 06:45, 06:45, 06:45, 06:45, 06:45</div>
+<div class="col-md-1"><div class="stopCircle">730</div></div>
+<a href="../stops/730a.html"><div class="col-md-4 stopInfo">McChord DFAC (a)</div></a><div class="col-md-7 stopInfo">06:50</div>
 </div>
 <div class="col-md-12">
 <div class="col-md-1"><div class="stopCircle">772</div></div>
-<a href="../stops/772a.html"><div class="col-md-4 stopInfo">Evergreen McChord Lodging (a)</div></a><div class="col-md-7 stopInfo">06:55, 06:55, 06:55, 06:55, 06:55</div>
+<a href="../stops/772a.html"><div class="col-md-4 stopInfo">Evergreen McChord Lodging (a)</div></a><div class="col-md-7 stopInfo">06:55</div>
 </div>
 <div class="col-md-12">
 <div class="col-md-1"><div class="stopCircle">777</div></div>
-<a href="../stops/777a.html"><div class="col-md-4 stopInfo">Flight Simulator (a)</div></a><div class="col-md-7 stopInfo">06:55, 06:55, 06:55, 06:55, 06:55</div>
+<a href="../stops/777a.html"><div class="col-md-4 stopInfo">Flight Simulator (a)</div></a><div class="col-md-7 stopInfo">06:55</div>
 </div>
 <div class="col-md-12">
 <div class="col-md-1"><div class="stopCircle">778</div></div>
-<a href="../stops/778a.html"><div class="col-md-4 stopInfo">373RD Training Detachment (a)</div></a><div class="col-md-7 stopInfo">06:56, 06:56, 06:56, 06:56, 06:56</div>
+<a href="../stops/778a.html"><div class="col-md-4 stopInfo">373RD Training Detachment (a)</div></a><div class="col-md-7 stopInfo">06:56</div>
 </div>
 <div class="col-md-12">
 <div class="col-md-1"><div class="stopCircle">780</div></div>
-<a href="../stops/780b.html"><div class="col-md-4 stopInfo">Passenger Terminal (b)</div></a><div class="col-md-7 stopInfo">06:56, 06:56, 06:56, 06:56, 06:56</div>
-</div>
-<div class="col-md-12">
-<div class="col-md-1"><div class="stopCircle">800</div></div>
-<a href="../stops/800a.html"><div class="col-md-4 stopInfo">North Gate External (a)</div></a><div class="col-md-7 stopInfo">06:57, 06:57, 06:57, 06:57, 06:57</div>
+<a href="../stops/780b.html"><div class="col-md-4 stopInfo">Passenger Terminal (b)</div></a><div class="col-md-7 stopInfo">06:56</div>
 </div>
 <div class="col-md-12">
 <div class="col-md-1"><div class="stopCircle">782</div></div>
-<a href="../stops/782a.html"><div class="col-md-4 stopInfo">North Gate Internal (a)</div></a><div class="col-md-7 stopInfo">06:57, 06:57, 06:57, 06:57, 06:57</div>
+<a href="../stops/782a.html"><div class="col-md-4 stopInfo">North Gate Internal (a)</div></a><div class="col-md-7 stopInfo">06:57</div>
+</div>
+<div class="col-md-12">
+<div class="col-md-1"><div class="stopCircle">800</div></div>
+<a href="../stops/800a.html"><div class="col-md-4 stopInfo">North Gate External (a)</div></a><div class="col-md-7 stopInfo">06:57</div>
 </div>
 </div>
 <div class="col-md-6">
 <div class="col-md-12 directionHeader route2">McChord DFAC to McChord Lodging</div>
 <br><div class="col-md-12">
 <div class="col-md-1"><div class="stopCircle">730</div></div>
-<a href="../stops/730a.html"><div class="col-md-4 stopInfo">McChord DFAC (a)</div></a><div class="col-md-7 stopInfo">06:30, 06:30, 06:30, 06:30, 06:30, 06:40, 06:40, 06:40, 06:40, 06:40</div>
+<a href="../stops/730a.html"><div class="col-md-4 stopInfo">McChord DFAC (a)</div></a><div class="col-md-7 stopInfo">06:30, 06:40</div>
 </div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script><script>
+      function initialize(){
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 47.10863333333334, lng: -122.55411111111111},
+            zoom: 15
+        });
+
+        var rtURL = 'https://raw.githubusercontent.com/GOLewis-McChord/go_src/master/static/kml/route2.kml?dummy='+(new Date()).getTime();
+        var rtLayer = new google.maps.KmlLayer({
+          url: rtURL,
+          map: map
+        });
+        rtLayer.setMap(map)
+
+        var stopURL = 'https://raw.githubusercontent.com/GOLewis-McChord/go_src/master/static/kml/stops.kml?dummy='+(new Date()).getTime();
+        var stopLayer = new google.maps.KmlLayer({
+          url: stopURL,
+          map: map
+        });
+        stopLayer.setMap(map)
+
+        google.maps.event.addListener(map, "click", function(event) {
+            var lat = event.latLng.lat();
+            var lng = event.latLng.lng();
+            // populate yor box/field with lat, lng
+            alert("Lat=" + lat + "; Lng=" + lng);
+        });
+      }
+</script><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgsmKLx0UBD6zwRT0P4WGuimjZ1KR5eR8&amp;callback=initialize"></script>
 </body>
 </html>

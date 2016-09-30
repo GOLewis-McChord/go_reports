@@ -54,3 +54,11 @@
 #weekend{
 	margin: 128px 0 0 0;
 }
+
+#map {
+        margin: auto;
+        height: 500px;
+        width: 1000px;
+        align: center;
+        padding: 10px;
+      }
