@@ -1,8 +1,6 @@
 stop_id,stop_name,stop_desc,stop_lat,stop_lon
 100a,Madigan Hospital,Stop inside Madigan's SW Parking Lot next to the covered awning.,47.108633,-122.554111
 100b,Madigan Hospital,Stop inside Madigan's SW Parking Lot next to the covered awning.,47.108669,-122.553953
-101a,SFAC and WTB,Stop alongside Gardener LP outside the SFAC/WTB,47.105703,-122.554025
-101b,SFAC and WTB,Stop alongside Gardener LP outside the SFAC/WTB,47.105603,-122.553569
 110a,Madigan HHC,,47.106092,-122.545403
 110b,Madigan HHC,,47.106172,-122.545258
 112a,Fisher House,,47.101528,-122.543956
@@ -69,21 +67,17 @@ stop_id,stop_name,stop_desc,stop_lat,stop_lon
 313a,French Theatre,,47.093036,-122.612817
 313b,French Theatre,,47.092783,-122.612344
 315a,Joint Base Headquarters,,47.092461,-122.614575
-316a,Main Chapel,,47.091406,-122.613647
 320a,Jensen Gym,,47.088794,-122.605194
 320b,Jensen Gym,,47.088939,-122.605117
 322a,McVeigh Fitness,,47.088139,-122.600967
 322b,McVeigh Fitness,,47.088272,-122.600931
 324a,Carey Theater,,47.088044,-122.597839
+101b,SFAC and WTB,Stop alongside Gardner LP outside the SFAC/WTB,47.105603,-122.553569
 324b,Carey Theater,,47.088167,-122.597881
 325a,Cowan Stadium,,47.088003,-122.595094
 325b,Cowan Stadium,,47.088133,-122.595089
 327a,The Commons,,47.087894,-122.591619
 327b,The Commons,,47.087922,-122.590467
-375a,9TH Division & Mann AVE,,47.086056,-122.617211
-378a,Pittman Complex,,47.087242,-122.623008
-379a,Albanese Hall,,47.087928,-122.625511
-388a,ITAM,,47.089111,-122.621811
 391a,Main Post Office,,47.091350,-122.616972
 450c,Lewis North ACU,,47.126044,-122.598897
 451a,Lewis North Shoppette,,47.124161,-122.600403
@@ -111,9 +105,6 @@ stop_id,stop_name,stop_desc,stop_lat,stop_lon
 750b,B ST & 4TH ST,,47.136208,-122.489303
 754a,MWR Craft Shop,,47.141833,-122.492564
 754b,MWR Craft Shop,,47.141906,-122.492711
-764a,Logistics Readiness Squadron,,47.141369,-122.490508
-765a,Air Crew Life Support,,47.142428,-122.486708
-766a,C-141 Memorial,,47.143575,-122.486425
 772a,Evergreen McChord Lodging,,47.144425,-122.493758
 772b,Evergreen McChord Lodging,,47.144458,-122.494006
 777a,Flight Simulator,,47.152058,-122.490986
@@ -128,3 +119,6 @@ stop_id,stop_name,stop_desc,stop_lat,stop_lon
 800a,North Gate External,,47.156294,-122.483397
 800b,North Gate External,,47.156564,-122.483664
 801a,512 Park & Ride,,47.160831,-122.483183
+101a,SFAC and WTB,Stop alongside Gardner LP outside the SFAC/WTB,47.105703,-122.554025
+391b,Main Post Office,,47.091434,-122.617050
+533a,DuPont Transit Center,GO Transit stop located within the DuPont Transit Center.,47.089930,-122.639720
