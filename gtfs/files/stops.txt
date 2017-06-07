@@ -122,4 +122,3 @@ stop_id,stop_name,stop_desc,stop_lat,stop_lon
 101a,SFAC and WTB,Stop alongside Gardner LP outside the SFAC/WTB,47.105703,-122.554025
 391b,Main Post Office,,47.091434,-122.617050
 533a,DuPont Transit Center,GO Transit stop located within the DuPont Transit Center.,47.089930,-122.639720
-650a,Carter Lake ES,,47.127170,-122.523060
