@@ -31,65 +31,39 @@ FeedValidator extension used: None
 <table>
 <tr><th class="header">Agencies:</th><td class="header"><a href="http://GOLewisMcChord.com">GO Transit</a></td></tr>
 <tr><th class="header">Routes:</th><td class="header">7</td></tr>
-<tr><th class="header">Stops:</th><td class="header">124</td></tr>
-<tr><th class="header">Trips:</th><td class="header">453</td></tr>
+<tr><th class="header">Stops:</th><td class="header">123</td></tr>
+<tr><th class="header">Trips:</th><td class="header">354</td></tr>
 <tr><th class="header">Shapes:</th><td class="header">21</td></tr>
-<tr><th class="header">Effective:</th><td class="header">August 31, 2015 to October 01, 2017</td></tr>
+<tr><th class="header">Effective:</th><td class="header">August 31, 2015 to March 31, 2018</td></tr>
 </table>
 <br>
-During the upcoming service dates Tue Jun 06 to Fri Aug 04:
+During the upcoming service dates Mon Nov 13 to Thu Jan 11:
 <table>
-<tr><th class="header">Average trips per date:</th><td class="header">224</td></tr>
-<tr><th class="header">Most trips on a date:</th><td class="header">331, on 2 service dates (Tue Jun 06, Wed Jun 07)</td></tr>
-<tr><th class="header">Least trips on a date:</th><td class="header">0, on 1 service date (Tue Jul 04)</td></tr>
+<tr><th class="header">Average trips per date:</th><td class="header">204</td></tr>
+<tr><th class="header">Most trips on a date:</th><td class="header">269, on 8 service dates (Fri Nov 17, Fri Nov 24, Fri Dec 01, ...)</td></tr>
+<tr><th class="header">Least trips on a date:</th><td class="header">0, on 3 service dates (Thu Nov 23, Mon Dec 25, Mon Jan 01)</td></tr>
 </table>
 <br>
 <span class="fail">Found these problems:</span>
 <table class="count_outside">
-<tr><td><span class="fail">297 errors</span></td><td><span class="fail">7 warnings</span></td></tr>
+<tr><td><span class="fail">6 warnings</span></td></tr>
 <tr><td>
-<table><tr><td>297</td><td><a href="#ErrorInvalidValue">Invalid Values</a></td></tr>
-</table>
-</td>
-<td>
-<table><tr><td>7</td><td><a href="#WarningOtherProblem">Other Problems</a></td></tr>
+<table><tr><td>6</td><td><a href="#WarningOtherProblem">Other Problems</a></td></tr>
 </table>
 </td>
 </table>
 <br><br>
-<h3 class="issueHeader">Errors:</h3><h4 class="issueHeader"><a name="ErrorInvalidValue">Invalid Value</a></h4><ul>
-<li><div class="problem">Invalid value 654b in field <code>stop_id</code><br>This value wasn't defined in stops.txt</div>in line 6453 of <code>stop_times.txt</code><br>
-<table class="dump"><tr><th>trip_id</th><th>arrival_time</th><th>departure_time</th><th class="problem">stop_id</th><th>stop_sequence</th><th>stop_headsign</th><th>pickup_type</th><th>drop_off_type</th><th>shape_dist_traveled</th><th>timepoint</th></tr>
-<tr><td>17-29-41-1</td><td>07:02:00</td><td>07:02:00</td><td class="problem">654b</td><td>1</td><td>None</td><td>3</td><td>3</td><td>None</td><td>0</td></tr></table>
-<br></li>
-<li><div class="problem">Invalid value 811a in field <code>stop_id</code><br>This value wasn't defined in stops.txt</div>in line 6458 of <code>stop_times.txt</code><br>
-<table class="dump"><tr><th>trip_id</th><th>arrival_time</th><th>departure_time</th><th class="problem">stop_id</th><th>stop_sequence</th><th>stop_headsign</th><th>pickup_type</th><th>drop_off_type</th><th>shape_dist_traveled</th><th>timepoint</th></tr>
-<tr><td>17-29-41-1</td><td>07:07:55</td><td>07:07:55</td><td class="problem">811a</td><td>6</td><td>None</td><td>3</td><td>3</td><td>None</td><td>0</td></tr></table>
-<br></li>
-<li><div class="problem">Invalid value 814a in field <code>stop_id</code><br>This value wasn't defined in stops.txt</div>in line 6459 of <code>stop_times.txt</code><br>
-<table class="dump"><tr><th>trip_id</th><th>arrival_time</th><th>departure_time</th><th class="problem">stop_id</th><th>stop_sequence</th><th>stop_headsign</th><th>pickup_type</th><th>drop_off_type</th><th>shape_dist_traveled</th><th>timepoint</th></tr>
-<tr><td>17-29-41-1</td><td>07:10:25</td><td>07:10:25</td><td class="problem">814a</td><td>7</td><td>None</td><td>3</td><td>3</td><td>None</td><td>0</td></tr></table>
-<br></li>
-<li><div class="problem">Invalid value 819a in field <code>stop_id</code><br>This value wasn't defined in stops.txt</div>in line 6460 of <code>stop_times.txt</code><br>
-<table class="dump"><tr><th>trip_id</th><th>arrival_time</th><th>departure_time</th><th class="problem">stop_id</th><th>stop_sequence</th><th>stop_headsign</th><th>pickup_type</th><th>drop_off_type</th><th>shape_dist_traveled</th><th>timepoint</th></tr>
-<tr><td>17-29-41-1</td><td>07:16:55</td><td>07:16:55</td><td class="problem">819a</td><td>8</td><td>None</td><td>3</td><td>3</td><td>None</td><td>0</td></tr></table>
-<br></li>
-<li><div class="problem">Invalid value 654b in field <code>stop_id</code><br>This value wasn't defined in stops.txt</div>in line 6462 of <code>stop_times.txt</code><br>
-<table class="dump"><tr><th>trip_id</th><th>arrival_time</th><th>departure_time</th><th class="problem">stop_id</th><th>stop_sequence</th><th>stop_headsign</th><th>pickup_type</th><th>drop_off_type</th><th>shape_dist_traveled</th><th>timepoint</th></tr>
-<tr><td>17-29-41-10</td><td>13:02:00</td><td>13:02:00</td><td class="problem">654b</td><td>1</td><td>None</td><td>3</td><td>3</td><td>None</td><td>0</td></tr></table>
-<br></li>
-<li>and 292 more of this type.</ul>
 <h3 class="issueHeader">Warnings:</h3><h4 class="issueHeader"><a name="WarningOtherProblem">Other Problem</a></h4><ul>
-<li><div class="problem">The trip with the trip_id "14-20-33-17" doesn't have any stop times defined.</div><br></li>
+<li><div class="problem">The trip with the trip_id "14-20-33-12" doesn't have any stop times defined.</div><br></li>
 <li><div class="problem">The trip with the trip_id "16-25-39-2" doesn't have any stop times defined.</div><br></li>
 <li><div class="problem">The trip with the trip_id "16-25-35-14" doesn't have any stop times defined.</div><br></li>
 <li><div class="problem">The trip with the trip_id "16-25-40-4" doesn't have any stop times defined.</div><br></li>
-<li><div class="problem">The trip with the trip_id "17-29-41-18" doesn't have any stop times defined.</div><br></li>
-<li>and 2 more of this type.</ul>
+<li><div class="problem">The trip with the trip_id "11-16-28-16" doesn't have any stop times defined.</div><br></li>
+<li>and 1 more of this type.</ul>
 
 <div class="footer">
 Generated by <a href="https://github.com/google/transitfeed/wiki/FeedValidator">
-FeedValidator</a> version 1.2.15 on June 06, 2017 at 03:37 PM Pacific Daylight Time.
+FeedValidator</a> version 1.2.15 on November 13, 2017 at 07:54 AM Pacific Standard Time.
 </div>
 </body>
 </html>

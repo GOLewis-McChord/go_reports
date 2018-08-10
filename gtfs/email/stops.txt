@@ -1,0 +1,124 @@
+stop_id,stop_name,stop_desc,stop_lat,stop_lon
+100a,Madigan Hospital,Stop inside Madigan's SW Parking Lot next to the covered awning.,47.108633,-122.554111
+100b,Madigan Hospital,Stop inside Madigan's SW Parking Lot next to the covered awning.,47.108669,-122.553953
+110a,Madigan HHC,,47.106092,-122.545403
+110b,Madigan HHC,,47.106172,-122.545258
+112a,Fisher House,,47.101528,-122.543956
+112b,Fisher House,,47.101583,-122.543833
+113a,Madigan Annex,,47.100964,-122.540094
+113b,Madigan Annex,,47.101072,-122.540289
+140a,Four Chaplains Chapel,,47.102978,-122.555708
+140b,Four Chaplains Chapel,,47.103192,-122.554767
+141a,Hillside at Jackson,,47.098631,-122.561603
+141b,Hillside at Jackson,,47.098811,-122.560836
+200a,3RD Division & Pendleton,,47.092108,-122.569292
+200b,3RD Division & Pendleton,,47.091900,-122.569042
+201a,National Guard,,47.092036,-122.571842
+201b,National Guard,,47.092056,-122.572033
+212a,Stone Education,,47.094906,-122.576436
+212b,Stone Education,,47.094758,-122.576500
+217a,Hillside at Colorado,,47.097033,-122.583244
+217b,Hillside at Colorado,,47.097150,-122.584147
+220a,Pendleton Shoppette,,47.090958,-122.571933
+220b,Pendleton Shoppette,,47.090317,-122.571950
+223a,5TH ASOS,,47.087425,-122.570872
+223b,5TH ASOS,,47.087697,-122.570772
+224a,DPTMS Training Branch,,47.084658,-122.570461
+224b,DPTMS Training Branch,,47.084942,-122.570292
+225a,Soldiers Fieldhouse,,47.081917,-122.570417
+225b,Soldiers Fieldhouse,,47.082169,-122.570253
+226a,16TH CAB HQ,,47.077989,-122.571236
+226b,16TH CAB HQ,,47.077900,-122.571122
+227a,Evergreen Theatre,,47.075458,-122.572294
+227b,Evergreen Theatre,,47.075453,-122.572136
+228a,2-75 Ranger Battalion,,47.071842,-122.573758
+228b,2-75 Ranger Battalion,,47.071886,-122.573606
+270a,296 BSB and 23 BEB,,47.069528,-122.580997
+270b,296 BSB and 23 BEB,,47.069475,-122.581131
+271a,1-14 Squadron HQ,,47.071078,-122.581567
+271b,1-14 Squadron HQ,,47.071028,-122.581708
+272a,2-3 Battalion HQ,,47.073536,-122.582922
+272b,2-3 Battalion HQ,,47.073475,-122.583064
+273a,Soldiers Chapel,,47.075675,-122.585311
+273b,Soldiers Chapel,,47.075436,-122.585258
+274a,Sheridan Gym,,47.077278,-122.587142
+274b,Sheridan Gym,,47.077128,-122.587206
+275a,1ST Brigade Headquarters,,47.079450,-122.589558
+275b,1ST Brigade Headquarters,,47.079669,-122.590122
+276a,Stryker & 41ST Division,,47.081819,-122.593350
+276b,Stryker & 41ST Division,,47.081708,-122.593369
+300a,Post Exchange,,47.093342,-122.588706
+300b,Post Exchange,,47.093286,-122.588242
+300c,Post Exchange,,47.093261,-122.588358
+300d,Post Exchange,,47.093161,-122.588639
+304a,Commissary,,47.089956,-122.592586
+304b,Commissary,,47.089772,-122.592206
+305a,Waller Hall,,47.090006,-122.595778
+305b,Waller Hall,,47.089836,-122.595717
+307a,Rainier Inn,,47.089969,-122.600186
+307b,Rainier Inn,,47.089792,-122.600153
+308a,I Corps,,47.090458,-122.603697
+308b,I Corps,,47.090297,-122.603644
+309a,Reception Center,,47.090703,-122.605142
+310a,Public Works,,47.091536,-122.607431
+310b,Public Works,,47.091303,-122.607183
+311a,DFMWR,,47.092139,-122.609519
+311b,DFMWR,,47.091972,-122.609506
+313a,French Theatre,,47.093036,-122.612817
+313b,French Theatre,,47.092783,-122.612344
+315a,Joint Base Headquarters,,47.092461,-122.614575
+320a,Jensen Gym,,47.088794,-122.605194
+320b,Jensen Gym,,47.088939,-122.605117
+322a,McVeigh Fitness,,47.088139,-122.600967
+322b,McVeigh Fitness,,47.088272,-122.600931
+324a,Carey Theater,,47.088044,-122.597839
+101b,SFAC and WTB,Stop alongside Gardner LP outside the SFAC/WTB,47.105603,-122.553569
+324b,Carey Theater,,47.088167,-122.597881
+325a,Cowan Stadium,,47.088003,-122.595094
+325b,Cowan Stadium,,47.088133,-122.595089
+327a,The Commons,,47.087894,-122.591619
+327b,The Commons,,47.087922,-122.590467
+391a,Main Post Office,,47.091350,-122.616972
+450c,Lewis North ACU,,47.126044,-122.598897
+451a,Lewis North Shoppette,,47.124161,-122.600403
+452a,Lancer DFAC,,47.125236,-122.602336
+453a,Hawk Education,,47.126336,-122.604075
+465a,Sports Complex,,47.128919,-122.608183
+480a,Warrior Zone,,47.128533,-122.602811
+481a,2-2 SBCT Barracks,,47.126953,-122.600311
+700a,Lincoln & Barnes,,47.123047,-122.493856
+700b,Lincoln & Barnes,,47.122489,-122.494114
+701a,McChord Exchange,,47.126233,-122.493892
+701b,McChord Exchange,,47.126561,-122.494108
+704a,McChord Clinic,,47.130772,-122.493831
+704b,McChord Clinic,,47.130767,-122.494119
+705a,COL Joe Jackson & Barnes,,47.132019,-122.493842
+705b,COL Joe Jackson & Barnes,,47.132025,-122.494081
+730a,McChord DFAC,,47.129028,-122.492631
+741a,C ST & 4TH ST,,47.133069,-122.491175
+741b,C ST & 4TH ST,,47.133203,-122.491189
+744a,The Castle & Customer Service Mall,,47.133850,-122.487178
+744b,The Castle & Customer Service Mall,,47.133817,-122.487375
+745a,F ST & 3RD ST,,47.135094,-122.486553
+745b,F ST & 3RD ST,,47.135117,-122.486722
+750a,B ST & 4TH ST,,47.136119,-122.488939
+750b,B ST & 4TH ST,,47.136208,-122.489303
+754a,MWR Craft Shop,,47.141833,-122.492564
+754b,MWR Craft Shop,,47.141906,-122.492711
+772a,Evergreen McChord Lodging,,47.144425,-122.493758
+772b,Evergreen McChord Lodging,,47.144458,-122.494006
+777a,Flight Simulator,,47.152058,-122.490986
+777b,Flight Simulator,,47.152219,-122.491450
+778a,373RD Training Detachment,,47.152058,-122.487556
+778b,373RD Training Detachment,,47.152189,-122.487956
+780a,Passenger Terminal,,47.150342,-122.485039
+780b,Passenger Terminal,,47.152058,-122.484786
+780c,Passenger Terminal,,47.152181,-122.485219
+782a,North Gate Internal,,47.154281,-122.483453
+782b,North Gate Internal,,47.154111,-122.483625
+800a,North Gate External,,47.156294,-122.483397
+800b,North Gate External,,47.156564,-122.483664
+801a,512 Park & Ride,,47.160831,-122.483183
+101a,SFAC and WTB,Stop alongside Gardner LP outside the SFAC/WTB,47.105703,-122.554025
+391b,Main Post Office,,47.091434,-122.617050
+533a,DuPont Transit Center,GO Transit stop located within the DuPont Transit Center.,47.089930,-122.639720
