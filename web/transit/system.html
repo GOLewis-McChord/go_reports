@@ -41,7 +41,7 @@
                 <a class="nav-link" href="../bike/fleets.html">Bike</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../vanpool/overview.html">Rideshare</a>
+                <a class="nav-link" href="../vanpool/overview.html">Commute</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://wa-piercetrips.civicplus.com/260/GO-Lewis-McChord-Outreach">Outreach</a>
@@ -70,21 +70,14 @@
             <a href="routes/route4.html"><img src="../img/route4_logo.jpg" class="imgHeader"/></a>
         </div>
 
-		<div class="col-md-2">
-			<a href="routes/routes10_20.html"><img src="../img/route10_logo.jpg" class="imgHeader"/></a>
-		</div>
-
-		<div class="col-md-2">
-			<a href="routes/routes10_20.html"><img src="../img/route20_logo.jpg" class="imgHeader"/></a>
-		</div>
+		
     </div>
 
      <div id="footer">
 
 		<div class="row">
-			<h5 style="text-align:center;">Download the free phone app <a href="https://onebusaway.org/">OneBusAway</a> to use GO Transit on-the-go.</h5>
 			<h5 style="text-align:center">Find more transit routes and connections with <a href="https://www.piercetransit.org/">Pierce Transit,</a> <a href="https://www.intercitytransit.com/">Intercity Transit,</a> and <a href="https://www.soundtransit.org/">Sound Transit.</a></h5>
-            <h5 style="text-align:center">GO Transit questions? Call (253)-966-3939 for assistance.</h5>
+            <h5 style="text-align:center">GO Transit questions? Call (253) 966-3939 for assistance.</h5>
 		</div>
 
     </div></br>
@@ -127,20 +120,7 @@
         });
         rt4Layer.setMap(map)
 
-        var rt10URL = 'https://raw.githubusercontent.com/GOLewis-McChord/go_src/master/static/kml/route10.kml?dummy='+(new Date()).getTime();
-        var rt10Layer = new google.maps.KmlLayer({
-          url: rt10URL,
-          map: map
-        });
-        rt10Layer.setMap(map)
-
-        var rt20URL = 'https://raw.githubusercontent.com/GOLewis-McChord/go_src/master/static/kml/route20.kml?dummy='+(new Date()).getTime();
-        var rt20Layer = new google.maps.KmlLayer({
-          url: rt20URL,
-          map: map
-        });
-        rt20Layer.setMap(map)
-
+      
         var stopURL = 'https://raw.githubusercontent.com/GOLewis-McChord/go_src/master/static/kml/stops.kml?dummy='+(new Date()).getTime();
         var stopLayer = new google.maps.KmlLayer({
           url: stopURL,

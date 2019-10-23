@@ -92,7 +92,7 @@
 				<a class="nav-link" href="bike/fleets.html">Bike</a>
             </li>
 			<li class="nav-item">
-				<a class="nav-link" href="vanpool/overview.html">Rideshare</a>
+				<a class="nav-link" href="vanpool/overview.html">Commute</a>
             </li>
 			<li class="nav-item">
 				<a class="nav-link" href="https://wa-piercetrips.civicplus.com/260/GO-Lewis-McChord-Outreach">Outreach</a>
@@ -201,22 +201,7 @@
         });
         rt4Layer.setMap(map)
 
-        var rt10URL = 'https://raw.githubusercontent.com/GOLewis-McChord/go_src/master/static/kml/route10.kml?dummy='+(new Date()).getTime();
-        var rt10Layer = new google.maps.KmlLayer({
-          url: rt10URL,
-          map: map,
-          preserveViewport:true
-        });
-        rt10Layer.setMap(map)
-
-        var rt20URL = 'https://raw.githubusercontent.com/GOLewis-McChord/go_src/master/static/kml/route20.kml?dummy='+(new Date()).getTime();
-        var rt20Layer = new google.maps.KmlLayer({
-          url: rt20URL,
-          map: map,
-          preserveViewport:true
-        });
-        rt20Layer.setMap(map)
-
+       
         var stopURL = 'https://raw.githubusercontent.com/GOLewis-McChord/go_src/master/static/kml/stops.kml?dummy='+(new Date()).getTime();
         var stopLayer = new google.maps.KmlLayer({
           url: stopURL,
